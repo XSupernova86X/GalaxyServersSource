@@ -1,7 +1,5 @@
 local Suspend = {
 'YOSXF_34',
-'Player Username Here',
-'Player Username Here',
 }
 local dev = 'devconsole'
 if table.find(Suspend,game.Players.LocalPlayer.Name) then
