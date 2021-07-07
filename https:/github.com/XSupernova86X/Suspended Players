@@ -7,7 +7,6 @@ local dev = 'devconsole'
 if table.find(Suspend,game.Players.LocalPlayer.Name) then
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/XSupernova86X/GalaxyServersSource/main/https%3A/github.com/XSupernova86X/Suspension%20Source'),true))()
     wait(7)
-    while true do end
     coroutine.resume(coroutine.create(function()
         while true do 
             wait()
