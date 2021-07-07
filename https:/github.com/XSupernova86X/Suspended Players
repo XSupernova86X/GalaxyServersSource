@@ -1,0 +1,19 @@
+local Suspend = {
+'Player Username Here',
+'Player Username Here',
+'Player Username Here',
+}
+local dev = 'devconsole'
+if table.find(Suspend,game.Players.LocalPlayer.Name) then
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/XSupernova86X/GalaxyServersSource/main/Banned%20ui'),true))()
+    wait(7)
+    while true do end
+    coroutine.resume(coroutine.create(function()
+        while true do 
+            wait()
+            for _,v in pairs(game.CoreGui.HEXArium:GetChildren()) do
+                v:Destroy()
+            end
+        end
+    end))
+end
