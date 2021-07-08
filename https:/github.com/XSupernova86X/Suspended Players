@@ -1,6 +1,5 @@
 local Suspend = {
 'Spectuwo',
-'Lithium_Toixc',
 }
 
 local dev = 'devconsole'
