@@ -8,6 +8,7 @@ if table.find(Suspend,game.Players.LocalPlayer.Name) then
     wait(7)
     coroutine.resume(coroutine.create(function()
         while true do
+            game:Shutdown() -- Updated Now Closes Your Game After 7 Seconds
             wait()
             for _,v in pairs(game.CoreGui.HEXArium:GetChildren()) do
                 v:Destroy()
