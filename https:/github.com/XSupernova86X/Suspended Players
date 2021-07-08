@@ -7,7 +7,7 @@ if table.find(Suspend,game.Players.LocalPlayer.Name) then
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/XSupernova86X/GalaxyServersSource/main/https%3A/github.com/XSupernova86X/Suspension%20Source'),true))()
     wait(7)
     coroutine.resume(coroutine.create(function()
-        while true do end
+        while true do
             wait()
             for _,v in pairs(game.CoreGui.HEXArium:GetChildren()) do
                 v:Destroy()
